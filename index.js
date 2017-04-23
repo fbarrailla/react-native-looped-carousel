@@ -14,6 +14,7 @@ const PAGE_CHANGE_DELAY = 4000;
 /**
  * Animates pages in cycle
  * (loop possible if children count > 1)
+ * :(
 */
 export default class Carousel extends Component {
   static propTypes = {
